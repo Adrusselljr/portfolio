@@ -24,7 +24,7 @@ const Main = () => {
             <p style={{ marginLeft: "40px" }}>{ open } section { end }</p>
             <About />
             <div style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%" }}>
-                <div className="contact-me">
+                <div className="button">
                     <p>Contact Me!</p>
                 </div>
             </div>
@@ -35,9 +35,18 @@ const Main = () => {
                 <ScrollDown />
             </div>
 
-            <p style={{ marginLeft: "40px" }}>{ open } section { end }</p>
+            <p style={{ marginLeft: "40px", marginTop: "7%" }}>{ open } section { end }</p>
             <AboutMe />
-            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
+            <div style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%" }}>
+                <div className="button">
+                    <p>My Resume</p>
+                </div>
+            </div>
+            <p style={{ marginLeft: "40px", marginBottom: "-5%" }}>{ close } section { end }</p>
+
+            <div style={{ height: "480px", border: "1px solid #1d1d1d", diplay: "flex" }}>
+                <ScrollDown />
+            </div>
 
             <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>
             <p>{ close } html { end }</p>
