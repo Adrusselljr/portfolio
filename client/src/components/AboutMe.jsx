@@ -41,7 +41,7 @@ function AboutMe() {
                     <p>Git & GitHub</p>
 
                 </div>
-                <p style={{ fontSize: "small" }}>{ close } p { end }</p>
+                <p style={{ fontSize: "small", marginBottom: "60px" }}>{ close } p { end }</p>
             </div>
             
             <div style={{ fontSize: "40px", width: "90%", paddingRight: "5%" }}>
@@ -52,6 +52,10 @@ function AboutMe() {
                 <p style={{ fontSize: "small" }}>{ open } p { end }</p>
                 <p style={{ color: "white", fontSize: "20px" }}>I'm a Software Engineer with a passion for building things. I love building and creating, whether those things are web applications, or even projects at home. I'm a problem solver and I just love watching my thoughts come to life on screen. Ever since I can remember, I've always had an interest and passion for tech. I specialize in full stack development and make it my mission to create accessible and user-friendly applications and websites. Other than coding, I spend my free time playing video games, and reading.</p>
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
+            </div>
+
+            <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s", color: "#05fdd8" }}>
+                <p className='p' style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>My Resume</p>
             </div>
         </div>
     )

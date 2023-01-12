@@ -21,15 +21,19 @@ code {
   width: "150vm";
 }
 
-.contact-me:hover {
-  background: "#05fdd8";
-  color: "#1d1d1d";
-}
-
 .skills p{
   border: 1px solid #5c5b5b;
   background-color: #5c5b5b;
   border-radius: 5px;
   margin: 10px;
   padding: 5px;
+}
+
+.button:hover {
+  background-color: #05fdd8;
+  color: #1d1d1d;
+}
+
+.button p:hover {
+  color: #1d1d1d;
 }
