@@ -18,7 +18,7 @@ function About() {
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
 
                 <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s" }}>
-                    <p className='p' style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Contact Me!</p>
+                    <p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Contact Me!</p>
                 </div>
             </div>
     )

@@ -1,9 +1,9 @@
 import React from 'react'
 import About from '../components/About'
 import Header from '../components/Header'
-import ScrollDown from '../components/ScrollDown'
 import AboutMe from '../components/AboutMe'
-
+import Projects from '../components/Projects'
+import Links from '../components/Links'
 
 // Variables
 const open = "<"
@@ -25,17 +25,24 @@ const Main = () => {
             <About />
             <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
 
-
-            <div style={{ height: "480px", border: "1px solid #1d1d1d", diplay: "flex" }}>
-                <ScrollDown />
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <Links />
             </div>
 
-            <p style={{ marginLeft: "40px", marginTop: "35px" }}>{ open } section { end }</p>
+            <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
             <AboutMe />
-            <p style={{ marginLeft: "40px", marginBottom: "-5%" }}>{ close } section { end }</p>
+            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
 
-            <div style={{ height: "480px", border: "1px solid #1d1d1d", diplay: "flex" }}>
-                <ScrollDown />
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <Links />
+            </div>
+
+            <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
+            <Projects />
+            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
+
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <Links />
             </div>
 
             <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>
