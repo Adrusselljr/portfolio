@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // Variables
 const open = "<"
 const close = "</"
 const end = ">"
 
-function About() {
+const About = () => {
     return (
             <div style={{ margin: "-1% 0px 0px 4.5%", fontSize: "40px", display: "flex", flexDirection: "column" }}>
                 <p style={{ fontSize: "small" }}>{ open } h1 { end }</p>
@@ -18,7 +19,7 @@ function About() {
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
 
                 <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s" }}>
-                    <p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Contact Me!</p>
+                    <Link style={{ textDecoration: 'none', color: "#05fdd8" }} to="contact" ><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Contact Me!</p></Link>
                 </div>
             </div>
     )

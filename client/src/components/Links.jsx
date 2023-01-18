@@ -5,7 +5,7 @@ import GitHub from '../images/GitHubLogo.png'
 import LinkedIn from '../images/LinkedinLogo.png'
 import Resume from '../images/ResumeLogo.png'
 
-function Links() {
+const Links = () => {
     return (
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <a href="https://www.linkedin.com/in/aaron-r-59578b186/"><img style={{ width: "60px" }} src={ LinkedIn } alt="LinkedIn Logo" /></a>

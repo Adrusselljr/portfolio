@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+const Header = () => {
     return (
         <div style={{ marginLeft: "65px", display: "flex", alignItems: "center", justifyContent: "space-between", height: "70px", width: "1100px" }}>
 

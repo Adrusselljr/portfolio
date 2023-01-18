@@ -1,11 +1,13 @@
 import React from 'react'
+import MemoryGame from '../images/MemoryGame.png'
+import PongGame from '../images/PongGame.png'
 
 // Variables
 const open = "<"
 const close = "</"
 const end = ">"
 
-function Projects() {
+const Projects = () => {
     return (
         <div style={{ marginLeft: "4%" }}>
             <div style={{ fontSize: "40px" }}>
@@ -16,8 +18,10 @@ function Projects() {
                 <div style={{ marginLeft: "1%" }}>
                     <p style={{ fontSize: "small" }}>{ open } div { end }</p>
                     <div style={{ display: "flex", justifyContent: "space-around" }}>
-                        <p>PONG</p>
-                        <p>IMG</p>
+                        <div>
+                            <p>PONG</p>
+                        </div>
+                        <a href="https://pong-lac.vercel.app/"><img style={{ width: "400px", marginTop: "40px" }} src={ PongGame } alt="Pong Game" /></a>
                     </div>
                     <p style={{ fontSize: "small" }}>{ close } div { end }</p>
                 </div>
@@ -25,8 +29,10 @@ function Projects() {
                 <div style={{ marginLeft: "1%" }}>
                     <p style={{ fontSize: "small" }}>{ open } div { end }</p>
                     <div style={{ display: "flex", justifyContent: "space-around" }}>
-                        <p>MATCH GAME</p>
-                        <p>IMG</p>
+                        <img style={{ width: "400px", height: "275px", marginTop: "40px" }} src={ MemoryGame } alt="Memory Game" />
+                        <div>
+                            <p>MATCH GAME</p>
+                        </div>
                     </div>
                     <p style={{ fontSize: "small" }}>{ close } div { end }</p>
                 </div>
@@ -34,7 +40,9 @@ function Projects() {
                 <div style={{ marginLeft: "1%" }}>
                     <p style={{ fontSize: "small" }}>{ open } div { end }</p>
                     <div style={{ display: "flex", justifyContent: "space-around" }}>
-                        <p>MOVIE LIBRARY</p>
+                        <div>
+                            <p>MOVIE LIBRARY</p>
+                        </div>
                         <p>IMG</p>
                     </div>
                     <p style={{ fontSize: "small" }}>{ close } div { end }</p>

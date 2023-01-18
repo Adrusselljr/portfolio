@@ -5,7 +5,7 @@ const open = "<"
 const close = "</"
 const end = ">"
 
-function AboutMe() {
+const AboutMe = () => {
     return (
         <div style={{ marginLeft: "4%" }}>
             <div style={{ fontSize: "40px" }}>

@@ -33,10 +33,6 @@ const Main = () => {
             <AboutMe />
             <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
 
-            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
-                <Links />
-            </div>
-
             <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
             <Projects />
             <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
