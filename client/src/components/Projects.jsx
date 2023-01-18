@@ -29,7 +29,7 @@ const Projects = () => {
                 <div style={{ marginLeft: "1%" }}>
                     <p style={{ fontSize: "small" }}>{ open } div { end }</p>
                     <div style={{ display: "flex", justifyContent: "space-around" }}>
-                        <img style={{ width: "400px", height: "275px", marginTop: "40px" }} src={ MemoryGame } alt="Memory Game" />
+                        <a href="https://memory-card-game-blue-five.vercel.app/"><img style={{ width: "400px", height: "275px", marginTop: "40px" }} src={ MemoryGame } alt="Memory Game" /></a>
                         <div>
                             <p>MATCH GAME</p>
                         </div>
