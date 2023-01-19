@@ -42,15 +42,6 @@ code {
   justify-content: center;
 }
 
-.submit-btn {
-  background-color: #05fdd8;
-  font-family: 'Orbitron';
-  width: 100px;
-  height: 40px;
-  font-size: large;
-  margin: 50px 0px 0px 254px;
-}
-
 @media only screen and (max-width: 1200px) {
 
   

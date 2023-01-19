@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 
-// variables
+// Variables
 const SERVICE_ID = "service_8xc4pkg"
 const TEMPLATE_ID = "template_f4u1prw"
 const PUBLIC_KEY = "HGkCuXmWGyc6p4Vs6"
@@ -21,25 +22,35 @@ const ContactForm = () => {
     }
 
     return (
-        <div>
+        <div style={{ width: "70%", marginLeft: "25%", marginTop: "50px" }}>
             <form ref={ form } onSubmit={ sendEmail }>
+
                 <div>
                     <label>Name: </label>
-                    <input name='name' type='text' placeholder='Name' style={{ marginLeft: "40px", width: "250px" }} />
+                    <input name='name' type='text' placeholder='Name' style={{ width: "50%", marginLeft: "50px" }} />
                 </div>
                 <div>
                     <label>Email: </label>
-                    <input name='email' type='email' placeholder='Email address' style={{ marginLeft: "45px", marginTop: "50px", width: "250px" }} />
+                    <input name='email' type='email' placeholder='Email address' style={{ marginLeft: "55px", marginTop: "50px", width: "50%" }} />
                 </div>
                 <div>
                     <label>Subject: </label>
-                    <input name='subject' type='text' placeholder='Subject' style={{ marginLeft: "25px", marginTop: "50px", width: "250px" }} />
+                    <input name='subject' type='text' placeholder='Subject' style={{ marginLeft: "35px", marginTop: "50px", width: "50%" }} />
                 </div>
                 <div>
                     <label>Message:</label>
-                    <textarea name="message" rows={ 3 } placeholder='Message' style={{ marginLeft: "15px", marginTop: "50px", width: "250px", height: "100px" }} />
+                    <textarea name="message" rows={ 3 } placeholder='Message' style={{ marginLeft: "25px", marginTop: "50px", width: "50%", height: "100px" }} />
                 </div>
-                <button value="Send" className='submit-btn' type='submit'>Submit</button>
+
+                <div style={{ display: "flex", justifyContent: "space-around", marginRight: "35%" }}>
+                    <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
+                        <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Cancel</p></Link>
+                    </div>
+                    <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
+                        <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/success' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Submit</p></Link>
+                    </div>
+                </div>
+
             </form>
         </div>
     )
