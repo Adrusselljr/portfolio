@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 
 // Variables
@@ -9,6 +9,7 @@ const PUBLIC_KEY = "HGkCuXmWGyc6p4Vs6"
 
 const ContactForm = () => {
     const form = useRef()
+    const navigate = useNavigate()
 
     const sendEmail = e => {
         e.preventDefault()
@@ -19,6 +20,7 @@ const ContactForm = () => {
             }, (error) => {
                 console.log(error.text)
             })
+            navigate("/success")
     }
 
     return (
@@ -47,7 +49,7 @@ const ContactForm = () => {
                         <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Cancel</p></Link>
                     </div>
                     <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
-                        <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/success' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Submit</p></Link>
+                        <input className='submit-btn submit' type="submit" value="Send" />
                     </div>
                 </div>
 
