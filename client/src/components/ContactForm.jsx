@@ -29,19 +29,19 @@ const ContactForm = () => {
 
                 <div>
                     <label>Name: </label>
-                    <input name='name' type='text' placeholder='Name' style={{ width: "50%", marginLeft: "50px" }} />
+                    <input name='name' type='text' placeholder='Name' style={{ width: "50%", marginLeft: "50px", border: "1px solid #05fdd8" }} />
                 </div>
                 <div>
                     <label>Email: </label>
-                    <input name='email' type='email' placeholder='Email address' style={{ marginLeft: "55px", marginTop: "50px", width: "50%" }} />
+                    <input name='email' type='email' placeholder='Email address' style={{ marginLeft: "55px", marginTop: "50px", width: "50%", border: "1px solid #05fdd8" }} />
                 </div>
                 <div>
                     <label>Subject: </label>
-                    <input name='subject' type='text' placeholder='Subject' style={{ marginLeft: "35px", marginTop: "50px", width: "50%" }} />
+                    <input name='subject' type='text' placeholder='Subject' style={{ marginLeft: "35px", marginTop: "50px", width: "50%", border: "1px solid #05fdd8" }} />
                 </div>
                 <div>
                     <label>Message:</label>
-                    <textarea name="message" rows={ 3 } placeholder='Message' style={{ marginLeft: "25px", marginTop: "50px", width: "50%", height: "100px" }} />
+                    <textarea name="message" rows={ 3 } placeholder='Message' style={{ marginLeft: "25px", marginTop: "50px", width: "50%", height: "100px", border: "1px solid #05fdd8" }} />
                 </div>
 
                 <div style={{ display: "flex", justifyContent: "space-around", marginRight: "35%" }}>
