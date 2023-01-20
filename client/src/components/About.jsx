@@ -18,7 +18,7 @@ const About = () => {
                 <p style={{ margin: "-.5% 0px -.5% 0px", color: "#8d8d8d" }}>Back End Developer / Front End Developer</p>
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
 
-                <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s" }}>
+                <div className="button" style={{ border: "1px solid #05fdd8", width: "20%", fontSize: "x-large", height: "60px", color: "#05fdd8", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s" }}>
                     <Link style={{ textDecoration: 'none', color: "#05fdd8" }} to="contact" ><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Contact Me!</p></Link>
                 </div>
             </div>

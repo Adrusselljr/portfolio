@@ -13,7 +13,7 @@ const ContactMe = () => {
             <p style={{ marginLeft: "20px" }}>{ open } body { end }</p>
             <p style={{ marginLeft: "40px" }}>{ open } form { end }</p>
 
-            <h2 style={{ color: "#05fdd8", fontSize: "40px", display: "flex", justifyContent: "center" }}>I'd Love to Hear From You</h2>
+            <h2 className='contact-h2' style={{ color: "#05fdd8", fontSize: "40px", display: "flex", justifyContent: "center" }}>I'd Love to Hear From You</h2>
 
             <div className='contact-form'>
                 <ContactForm /> 

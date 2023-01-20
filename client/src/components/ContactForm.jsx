@@ -44,11 +44,11 @@ const ContactForm = () => {
                     <textarea name="message" rows={ 3 } placeholder='Message' style={{ marginLeft: "25px", marginTop: "50px", width: "50%", height: "100px", border: "1px solid #05fdd8" }} />
                 </div>
 
-                <div style={{ display: "flex", justifyContent: "space-around", marginRight: "35%" }}>
-                    <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
+                <div className='contact-buttons' style={{ display: "flex", justifyContent: "space-around", marginRight: "34.8%" }}>
+                    <div className="button" style={{ border: "1px solid #05fdd8", width: "38%", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
                         <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Cancel</p></Link>
                     </div>
-                    <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
+                    <div className="button" style={{ border: "1px solid #05fdd8", width: "38%", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
                         <input style={{ border: "none" }} className='submit-btn submit' type="submit" value="Send" />
                     </div>
                 </div>

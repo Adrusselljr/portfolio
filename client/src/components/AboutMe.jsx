@@ -54,7 +54,7 @@ const AboutMe = () => {
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
             </div>
 
-            <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s", color: "#05fdd8" }}>
+            <div className="button" style={{ border: "1px solid #05fdd8", width: "20%", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s", color: "#05fdd8" }}>
                 <a style={{ textDecoration: "none", color: "#05fdd8" }} href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I"><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>My Resume</p></a>
             </div>
         </div>
