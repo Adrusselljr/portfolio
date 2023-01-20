@@ -61,10 +61,14 @@ code {
 
 input {
   background-color: #1d1d1d;
+  font-family: "Orbitron";
+  color: #05fdd8;
 }
 
 textarea {
   background-color: #1d1d1d;
+  font-family: "Orbitron";
+  color: #05fdd8;
 }
 
 ::placeholder {
