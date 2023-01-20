@@ -26,7 +26,9 @@ const Main = () => {
             <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
 
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
                 <Links />
+                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
             </div>
 
             <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
@@ -38,7 +40,9 @@ const Main = () => {
             <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
 
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
                 <Links />
+                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
             </div>
 
             <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>

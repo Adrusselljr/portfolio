@@ -1,8 +1,12 @@
 import React, { useRef } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
+import Links from '../components/Links'
 
 // Variables
+const open = "<"
+const close = "</"
+const end = ">"
 const SERVICE_ID = "service_8xc4pkg"
 const TEMPLATE_ID = "template_f4u1prw"
 const PUBLIC_KEY = "HGkCuXmWGyc6p4Vs6"
@@ -54,6 +58,12 @@ const ContactForm = () => {
                 </div>
 
             </form>
+
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%", marginRight: "33%" }}>
+                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
+                <Links />
+                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
+            </div>
         </div>
     )
 }

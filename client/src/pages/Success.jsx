@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Links from '../components/Links'
 
 // Variables
 const open = "<"
@@ -20,6 +21,11 @@ function Success() {
                 </div>
             </div>
 
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
+                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
+                <Links />
+                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
+            </div>
 
             <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>
             <p>{ close } html { end }</p>
