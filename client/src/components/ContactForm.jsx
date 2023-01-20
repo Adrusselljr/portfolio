@@ -49,7 +49,7 @@ const ContactForm = () => {
                         <Link style={{ textDecoration: "none", color: "#05fdd8" }} to='/' value="Send" className='submit-btn' type='submit'><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>Cancel</p></Link>
                     </div>
                     <div className="button" style={{ border: "1px solid #05fdd8", width: "250px", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "50px", transition: "0.3s", color: "#05fdd8" }}>
-                        <input className='submit-btn submit' type="submit" value="Send" />
+                        <input style={{ border: "none" }} className='submit-btn submit' type="submit" value="Send" />
                     </div>
                 </div>
 
