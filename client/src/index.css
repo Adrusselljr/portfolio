@@ -76,11 +76,108 @@ textarea {
   font-family: "Orbitron";
 }
 
-@media only screen and (max-width: 700px) {
+.button {
+  border: 1px solid #05fdd8;
+  width: 20%;
+  font-size: x-large;
+  height: 60px;
+  color: #05fdd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.65%;
+  transition: 0.3s;
+  margin-left: 10%;
+}
 
-  .contact-buttons {
+.button-p {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  
+}
+
+.link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p20 {
+  margin-left: 20px;
+}
+
+.p40 {
+  margin-left: 40px;
+}
+
+.p40-2 {
+  margin-left: 40px;
+  margin-top: 10%;
+}
+
+.mainjs-div {
+  margin: 25px;
+  font-size: small;
+}
+
+.links-p {
+  margin-right: 15px
+}
+
+.links-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin-github-img {
+  width: 60px;
+}
+
+.email-img {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.resume-img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.header-div {
+  margin-left: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 1100px;
+}
+
+.header-h1 {
+  font-size: 50px;
+  color: #05fdd8;
+}
+
+.header-p {
+  font-size: 25px;
+  color: #8d8d8d;
+  margin-top: 45px;
+}
+
+@media (max-width: 400px) {
+
+  .button {
     margin-left: 10%;
-    width: 70%;
+    width: 20%;
   }
 
 }

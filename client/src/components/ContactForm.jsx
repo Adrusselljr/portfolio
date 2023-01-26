@@ -28,7 +28,7 @@ const ContactForm = () => {
     }
 
     return (
-        <div style={{ width: "70%", marginLeft: "25%", marginTop: "50px" }}>
+        <div style={{ width: "1100px", marginLeft: "25%", marginTop: "50px" }}>
             <form ref={ form } onSubmit={ sendEmail }>
 
                 <div>

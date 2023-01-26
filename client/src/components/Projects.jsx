@@ -10,7 +10,7 @@ const end = ">"
 
 const Projects = () => {
     return (
-        <div style={{ marginLeft: "4%" }}>
+        <div style={{ marginLeft: "4%", width: "1100px" }}>
             <div style={{ fontSize: "40px" }}>
                 <p style={{ fontSize: "small" }}>{ open } h2 { end }</p>
                 <h2 style={{ margin: "-1% 0px 0px 0px", color: "#05fdd8" }}>Projects</h2>

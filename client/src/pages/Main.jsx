@@ -12,43 +12,43 @@ const end = ">"
 
 const Main = () => {
     return (
-        <div style={{ margin: '25px', fontSize: "small" }}>
+            <div className='mainjs-div'>
 
-            <p>{ open } html { end }</p>
-            <p style={{ marginLeft: "20px" }}>{ open } body { end }</p>
+                <p>{ open } html { end }</p>
+                <p className='p20'>{ open } body { end }</p>
 
-            <p style={{ marginLeft: "40px" }}>{ open } header { end }</p>
-            <Header />
-            <p style={{ marginLeft: "40px" }}>{ close } header { end }</p>
+                <p className='p40'>{ open } header { end }</p>
+                <Header />
+                <p className='p40'>{ close } header { end }</p>
 
-            <p style={{ marginLeft: "40px" }}>{ open } section { end }</p>
-            <About />
-            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
+                <p className='p40'>{ open } section { end }</p>
+                <About />
+                <p className='p40'>{ close } section { end }</p>
 
-            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
-                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
-                <Links />
-                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
+                <div className='link-div'>
+                    <p className='links-p'>{ open } div { end }</p>
+                    <Links />
+                    <p className='p20'>{ close } div { end }</p>
+                </div>
+
+                <p className='p40-2'>{ open } section { end }</p>
+                <AboutMe />
+                <p className='p40'>{ close } section { end }</p>
+
+                <p className='p40-2'>{ open } section { end }</p>
+                <Projects />
+                <p className='p40'>{ close } section { end }</p>
+
+                <div className='link-div'>
+                    <p className='links-p'>{ open } div { end }</p>
+                    <Links />
+                    <p className='p20'>{ close } div { end }</p>
+                </div>
+
+                <p className='p20'>{ close } body { end }</p>
+                <p>{ close } html { end }</p>
+
             </div>
-
-            <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
-            <AboutMe />
-            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
-
-            <p style={{ marginLeft: "40px", marginTop: "10%" }}>{ open } section { end }</p>
-            <Projects />
-            <p style={{ marginLeft: "40px" }}>{ close } section { end }</p>
-
-            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "10%" }}>
-                <p style={{ marginRight: "15px" }}>{ open } div { end }</p>
-                <Links />
-                <p style={{ marginLeft: "20px" }}>{ close } div { end }</p>
-            </div>
-
-            <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>
-            <p>{ close } html { end }</p>
-
-        </div>
     )
 }
 

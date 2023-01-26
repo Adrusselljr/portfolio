@@ -7,7 +7,7 @@ const end = ">"
 
 const AboutMe = () => {
     return (
-        <div style={{ marginLeft: "4%" }}>
+        <div style={{ marginLeft: "4%", width: "1100px" }}>
             <div style={{ fontSize: "40px" }}>
                 <p style={{ fontSize: "small" }}>{ open } h2 { end }</p>
                 <h2 style={{ margin: "-1% 0px 0px 0px", color: "#05fdd8" }}>Skills</h2>
@@ -54,8 +54,8 @@ const AboutMe = () => {
                 <p style={{ fontSize: "small" }}>{ close } p { end }</p>
             </div>
 
-            <div className="button" style={{ border: "1px solid #05fdd8", width: "20%", fontSize: "x-large", height: "60px", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "4.65%", transition: "0.3s", color: "#05fdd8" }}>
-                <a style={{ textDecoration: "none", color: "#05fdd8" }} href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I"><p style={{ width: "250px", height: "60px", display: "flex", justifyContent: "center", alignItems: "center" }}>My Resume</p></a>
+            <div className="button">
+                <a style={{ textDecoration: "none", color: "#05fdd8" }} href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I"><p className='button-p'>My Resume</p></a>
             </div>
         </div>
     )

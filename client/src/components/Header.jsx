@@ -2,14 +2,14 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div style={{ marginLeft: "65px", display: "flex", alignItems: "center", justifyContent: "space-between", height: "70px", width: "1100px" }}>
+        <div className='header-div'>
 
             <div>
-                <h1 style={{ fontSize: "50px", color: "#05fdd8" }}>Aaron Russell Jr</h1>
+                <h1 className='header-h1'>Aaron Russell Jr</h1>
             </div>
 
             <div>
-                <p style={{ fontSize: "25px", color: "#8d8d8d", marginTop: "45px" }}>Web Developer / Software Developer</p>
+                <p className='header-p'>Web Developer / Software Developer</p>
             </div>
 
         </div>
