@@ -20,6 +20,14 @@ code {
   align-items: center;
 }
 
+.skills {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
 .skills p{
   border: 1px solid #5c5b5b;
   background-color: #5c5b5b;
@@ -109,6 +117,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1100px;
 }
 
 .p20 {
@@ -173,11 +182,141 @@ textarea {
   margin-top: 45px;
 }
 
+.about-div {
+  margin: -1% 0px 0px 4.5%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+}
+
+.about-symbols {
+  font-size: small;
+}
+
+.about-h1-1 {
+  margin: -1% 0px 0px 0px;
+  color: white;
+}
+
+.about-h1-2 {
+  margin: -1.5% 0px 0px 0px;
+  color: white;
+}
+
+.about-h1-3 {
+  margin: -1.5% 0px -1.25% 0px;
+  color: white;
+}
+
+.about-span {
+  color: #05fdd8;
+}
+
+.about-symbols-1 {
+  margin-bottom: -5px;
+  font-size: small;
+}
+
+.about-symbols-2 {
+  margin: -.5% 0px -.5% 0px;
+  color: #8d8d8d;
+}
+
+.about-link {
+  text-decoration: none;
+  color: #05fdd8;
+}
+
+.aboutMe-div-1 {
+  margin-left: 4%;
+  width: 1100px;
+}
+
+.aboutMe-div-2 {
+  font-size: 40px;
+}
+
+.aboutMe-symbols {
+  font-size: small;
+}
+
+.aboutMe-h2 {
+  margin: -1% 0px 0px 0px;
+  color: #05fdd8;
+}
+
+.aboutMe-symbols-1 {
+  font-size: small;
+  margin-bottom: 60px;
+}
+
+.aboutMe-div-3 {
+  font-size: 40px;
+  width: 90%;
+  padding-right: 5%;
+}
+
+.aboutMe-p {
+  color: white;
+  font-size: 20px;
+}
+
+.aboutMe-a {
+  text-decoration: none;
+  color: #05fdd8;
+}
+
 @media (max-width: 400px) {
 
   .button {
     margin-left: 10%;
     width: 20%;
+  }
+
+  .about-h1-1 {
+    margin: -1% 0px 0px 0px;
+    font-size: 60px;
+  }
+  
+  .about-h1-2 {
+    margin: -1.5% 0px 0px 0px;
+    font-size: 60px;
+  }
+  
+  .about-h1-3 {
+    margin: -1.5% 0px -1.25% 0px;
+    font-size: 60px;
+  }
+
+  .about-div {
+    margin: -1% 0px 0px 18%;
+  }
+
+  .header-div {
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 1100px;
+  }
+  
+  .header-h1 {
+    font-size: 45px;
+    color: #05fdd8;
+  }
+  
+  .header-p {
+    font-size: 23px;
+    color: #8d8d8d;
+    margin-top: 45px;
+    margin-right: 150px;
+  }
+
+  .aboutMe-div-1 {
+    margin-left: 18%;
+    width: 1080px;
   }
 
 }

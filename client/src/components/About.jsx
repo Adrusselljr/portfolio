@@ -8,18 +8,18 @@ const end = ">"
 
 const About = () => {
     return (
-            <div style={{ margin: "-1% 0px 0px 4.5%", fontSize: "40px", display: "flex", flexDirection: "column", width: "1100px" }}>
-                <p style={{ fontSize: "small" }}>{ open } h1 { end }</p>
-                <h1 style={{ margin: "-1% 0px 0px 0px", color: "white" }}>Hi,</h1>
-                <h1 style={{ margin: "-1.5% 0px 0px 0px", color: "white" }}>I'm <span style={{ color: "#05fdd8" }}>A</span>aron,</h1>
-                <h1 style={{ margin: "-1.5% 0px -1.25% 0px", color: "white" }}>full stack web developer</h1>
-                <p style={{ marginBottom: "-5px", fontSize: "small" }}>{ close } h1 { end }</p>
-                <p style={{ fontSize: "small" }}>{ open } p { end }</p>
-                <p style={{ margin: "-.5% 0px -.5% 0px", color: "#8d8d8d" }}>Back End Developer / Front End Developer</p>
-                <p style={{ fontSize: "small" }}>{ close } p { end }</p>
+            <div className='about-div'>
+                <p className='about-symbols'>{ open } h1 { end }</p>
+                <h1 className='about-h1-1'>Hi,</h1>
+                <h1 className='about-h1-2'>I'm <span className='about-span'>A</span>aron,</h1>
+                <h1 className='about-h1-3'>full stack web developer</h1>
+                <p className='about-symbols-1'>{ close } h1 { end }</p>
+                <p className='about-symbols'>{ open } p { end }</p>
+                <p className='about-symbols-2'>Back End Developer / Front End Developer</p>
+                <p className='about-symbols'>{ close } p { end }</p>
 
                 <div className="button">
-                    <Link style={{ textDecoration: 'none', color: "#05fdd8" }} to="contact" ><p className='button-p'>Contact Me!</p></Link>
+                    <Link className='about-link' to="contact" ><p className='button-p'>Contact Me!</p></Link>
                 </div>
             </div>
     )
