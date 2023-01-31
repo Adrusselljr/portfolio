@@ -9,19 +9,19 @@ const end = ">"
 const ContactMe = () => {
     return (
         <div>
-            <p>{ open } html { end }</p>
-            <p style={{ marginLeft: "20px" }}>{ open } body { end }</p>
-            <p style={{ marginLeft: "40px" }}>{ open } form { end }</p>
+            <p className='contactMe-symbols-1'>{ open } html { end }</p>
+            <p className='contactMe-symbols-2'>{ open } body { end }</p>
+            <p className='contactMe-symbols-3'>{ open } form { end }</p>
 
-            <h2 className='contact-h2' style={{ color: "#05fdd8", fontSize: "40px", display: "flex", justifyContent: "center" }}>I'd Love to Hear From You</h2>
+            <h2 className='contactMe-h2'>I'd Love to Hear From You</h2>
 
             <div className='contact-form'>
                 <ContactForm /> 
             </div>
 
-            <p style={{ marginLeft: "40px" }}>{ close } form { end }</p>
-            <p style={{ marginLeft: "20px" }}>{ close } body { end }</p>
-            <p>{ close } html { end }</p>
+            <p className='contactMe-symbols-3'>{ close } form { end }</p>
+            <p className='contactMe-symbols-2'>{ close } body { end }</p>
+            <p className='contactMe-symbols-1'>{ close } html { end }</p>
         </div>
     )
 }

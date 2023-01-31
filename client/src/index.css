@@ -50,7 +50,7 @@ code {
   justify-content: center;
 }
 
-.submit {
+.contactForm-submit {
   width: 250px;
   height: 60px;
   display: "flex";
@@ -60,6 +60,7 @@ code {
   font-family: "Orbitron";
   color: #05fdd8;
   font-size: x-large;
+  border: none;
 }
 
 .submit:hover {
@@ -109,8 +110,8 @@ textarea {
 .contact-buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 15%;
-  
+  margin-top: 10%;
+  margin-right: 34.8%;
 }
 
 .link-div {
@@ -267,6 +268,160 @@ textarea {
   color: #05fdd8;
 }
 
+.project-main {
+  margin-left: 4.5%;
+  width: 1100px;
+}
+
+.project-main-2 {
+  font-size: 40px;
+}
+
+.project-symbols {
+  font-size: small;
+}
+
+.projects-h2 {
+  margin: -1% 0px 0px 0px;
+  color: #05fdd8;
+}
+
+.projects-div {
+  margin-left: 2%;
+}
+
+.projects-inner-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-text-p {
+  color: white;
+  font-size: small;
+}
+
+.projects-github-img {
+  width: 60px;
+}
+
+.projects-pong-img {
+  width: 400px;
+  margin-top: 40px;
+}
+
+.projects-memory-img {
+  width: 400px;
+  height: 275px;
+  margin-top: 40px;
+}
+
+.contactForm-div {
+  width: 1100px;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+.contactForm-input-name {
+  width: 50%;
+  margin-left: 50px;
+  border: 1px solid #05fdd8;
+}
+
+.contactForm-input-email {
+  margin-left: 55px;
+  margin-top: 50px;
+  width: 50%;
+  border: 1px solid #05fdd8;
+}
+
+.contactForm-input-subject {
+  margin-left: 35px;
+  margin-top: 50px;
+  width: 50%;
+  border: 1px solid #05fdd8;
+}
+
+.contactForm-input-message {
+  margin-left: 25px;
+  margin-top: 50px;
+  width: 50%;
+  height: 100px;
+  border: 1px solid #05fdd8;
+}
+
+.btn {
+  border: 1px solid #05fdd8;
+  width: 38%;
+  font-size: x-large;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  transition: 0.3s;
+  color: #05fdd8;
+}
+
+.contactForm-Link-p {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm-Link {
+  text-decoration: none;
+  color: #05fdd8;
+}
+
+.contactForm-Links-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-right: 33%;
+  margin-left: 5%;
+}
+
+.contactForm-symbols-1 {
+  margin-right: 15px;
+  font-size: small;
+}
+
+.contactForm-symbols-2 {
+  margin-left: 20px;
+  font-size: small;
+}
+
+.contactMe-symbols-1 {
+  font-size: small;
+}
+
+.contactMe-symbols-2 {
+  margin-left: 20px;
+  font-size: small;
+}
+
+.contactMe-symbols-3 {
+  margin-left: 40px;
+  font-size: small;
+}
+
+.contactMe-h2 {
+  color: #05fdd8;
+  font-Size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 400px) {
 
   .button {
@@ -317,6 +472,76 @@ textarea {
   .aboutMe-div-1 {
     margin-left: 18%;
     width: 1080px;
+  }
+
+  .contactMe-h2 {
+    font-size: larger;
+  }
+
+  .contactForm-div {
+    margin-left: 59%;
+  }
+
+  .contactForm-input-name {
+    width: 40%;
+    margin-left: 40px;
+  }
+  
+  .contactForm-input-email {
+    margin-left: 43.5px;
+    width: 40%;
+  }
+  
+  .contactForm-input-subject {
+    margin-left: 25px;
+    width: 40%;
+  }
+  
+  .contactForm-input-message {
+    margin-left: 15px;
+    width: 40%;
+  }
+
+  .btn {
+    border: 1px solid #05fdd8;
+    width: 30%;
+    font-size: large;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    transition: 0.3s;
+    color: #05fdd8;
+  }
+
+  .contactForm-submit {
+    width: 250px;
+    height: 60px;
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    background-color: #1d1d1d;
+    font-family: "Orbitron";
+    color: #05fdd8;
+    font-size: large;
+    border: none;
+  }
+
+  .linkedin-github-img {
+    width: 40px;
+  }
+  
+  .email-img {
+    width: 28px;
+  }
+  
+  .resume-img {
+    width: 28px;
+  }
+
+  .link-div {
+    margin-right: 100px;
   }
 
 }
