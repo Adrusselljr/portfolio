@@ -49,10 +49,10 @@ const ContactForm = () => {
                 </div>
 
                 <div className='contact-buttons'>
-                    <div className="button btn">
+                    <div className="btn">
                         <Link className='contactForm-Link' to='/' value="Send" type='submit'><p className='contactForm-Link-p'>Cancel</p></Link>
                     </div>
-                    <div className="button btn">
+                    <div className="btn">
                         <input className='contactForm-submit' type="submit" value="Send" />
                     </div>
                 </div>

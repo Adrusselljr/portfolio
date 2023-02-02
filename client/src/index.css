@@ -36,31 +36,41 @@ code {
   padding: 5px;
 }
 
-.button:hover {
+.success-btn-Link {
+  text-decoration: none;
+  color: #05fdd8;
+}
+
+.btn:hover {
   background-color: #05fdd8;
   color: #1d1d1d;
 }
 
-.button p:hover {
+.contactForm-submit:hover {
+  color: #1d1d1d;
+  background-color: #05fdd8;
+}
+
+.btn p:hover {
+  color: #1d1d1d;
+}
+
+.success-btn:hover {
+  color: #1d1d1d;
+  background-color: #05fdd8;
+}
+
+.success-btn p:hover {
+  color: #1d1d1d;
+}
+
+.btn input:hover {
   color: #1d1d1d;
 }
 
 .contact-form {
   display: flex;
   justify-content: center;
-}
-
-.contactForm-submit {
-  width: 250px;
-  height: 60px;
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
-  background-color: #1d1d1d;
-  font-family: "Orbitron";
-  color: #05fdd8;
-  font-size: x-large;
-  border: none;
 }
 
 .submit:hover {
@@ -83,20 +93,6 @@ textarea {
 ::placeholder {
   color: #5c5b5b;
   font-family: "Orbitron";
-}
-
-.button {
-  border: 1px solid #05fdd8;
-  width: 20%;
-  font-size: x-large;
-  height: 60px;
-  color: #05fdd8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4.65%;
-  transition: 0.3s;
-  margin-left: 10%;
 }
 
 .button-p {
@@ -356,17 +352,30 @@ textarea {
   border: 1px solid #05fdd8;
 }
 
+.contactForm-submit {
+  width: 250px;
+  height: 60px;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  background-color: #1d1d1d;
+  font-family: "Orbitron";
+  color: #05fdd8;
+  font-size: x-large;
+  border: none;
+}
+
 .btn {
   border: 1px solid #05fdd8;
-  width: 38%;
+  width: 30%;
   font-size: x-large;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   transition: 0.3s;
   color: #05fdd8;
+  margin-left: 9%;
 }
 
 .contactForm-Link-p {
@@ -420,6 +429,47 @@ textarea {
   font-Size: 40px;
   display: flex;
   justify-content: center;
+}
+
+.success-symbols-1 {
+  font-size: small;
+}
+
+.success-symbols-2 {
+  font-size: small;
+  margin-left: 20px;
+}
+
+.success-inner-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #05fdd8;
+}
+
+.success-main-div {
+  width: 1100px;
+}
+
+.success-btn {
+  margin-right: 9%;
+  width: 20%;
+}
+
+.success-inner-div-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.success-Links-symbols-1 {
+  margin-right: 15px;
+}
+
+.success-Links-symbols-2 {
+  margin-left: 20px;
 }
 
 @media (max-width: 400px) {
