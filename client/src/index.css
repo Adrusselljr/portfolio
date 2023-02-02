@@ -36,6 +36,10 @@ code {
   padding: 5px;
 }
 
+.skills {
+  width: 100%;
+}
+
 .success-btn-Link {
   text-decoration: none;
   color: #05fdd8;
@@ -250,7 +254,7 @@ textarea {
 
 .aboutMe-div-3 {
   font-size: 40px;
-  width: 90%;
+  width: 100%;
   padding-right: 5%;
 }
 
@@ -284,11 +288,13 @@ textarea {
 
 .projects-div {
   margin-left: 2%;
+  width: 100%;
 }
 
 .projects-inner-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 2%;
 }
 
 .projects-text-div {
