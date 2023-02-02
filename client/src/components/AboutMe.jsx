@@ -39,7 +39,6 @@ const AboutMe = () => {
                     <p>Vercel</p>
                     <p>Heroku</p>
                     <p>Git & GitHub</p>
-
                 </div>
                 <p className='aboutMe-symbols-1'>{ close } p { end }</p>
             </div>
@@ -54,7 +53,7 @@ const AboutMe = () => {
                 <p className='aboutMe-symbols'>{ close } p { end }</p>
             </div>
 
-            <div className="button">
+            <div className="btn btn-size">
                 <a className='aboutMe-a' href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I"><p className='button-p'>My Resume</p></a>
             </div>
         </div>

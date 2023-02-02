@@ -18,7 +18,7 @@ const About = () => {
                 <p className='about-symbols-2'>Back End Developer / Front End Developer</p>
                 <p className='about-symbols'>{ close } p { end }</p>
 
-                <div className="button">
+                <div className="btn btn-size">
                     <Link className='about-link' to="contact" ><p className='button-p'>Contact Me!</p></Link>
                 </div>
             </div>

@@ -7,14 +7,14 @@ const open = "<"
 const close = "</"
 const end = ">"
 
-function Success() {
+const Success = () => {
     return (
         <div className='success-main-div'>
             <p className='success-symbols-1'>{ open } html { end }</p>
             <p className='success-symbols-2'>{ open } body { end }</p>
 
             <div className='success-inner-div-1'>
-                <h1>Thank you for the email!  I will reply as soon as I can!</h1>
+                <h3>Thank you for the email!  I will reply as soon as I can!</h3>
                 <p>Please keep browing my portfolio! Click Home.</p>
                 <div className="btn success-btn">
                     <Link className='success-btn-Link' to='/' value="Send" type='submit'><p>Home</p></Link>

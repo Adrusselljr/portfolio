@@ -378,6 +378,10 @@ textarea {
   margin-left: 9%;
 }
 
+.btn-size {
+  width: 25%;
+}
+
 .contactForm-Link-p {
   width: 250px;
   height: 60px;
@@ -455,6 +459,7 @@ textarea {
 .success-btn {
   margin-right: 9%;
   width: 20%;
+  margin-top: 25px;
 }
 
 .success-inner-div-2 {
@@ -466,10 +471,12 @@ textarea {
 
 .success-Links-symbols-1 {
   margin-right: 15px;
+  font-size: small;
 }
 
 .success-Links-symbols-2 {
   margin-left: 20px;
+  font-size: small;
 }
 
 @media (max-width: 400px) {
@@ -592,6 +599,43 @@ textarea {
 
   .link-div {
     margin-right: 100px;
+  }
+
+  .success-main-div {
+    width: 400px;
+  }
+
+  .success-inner-div-1 {
+    font-size: 10px;
+    margin-left: 6%;
+  }
+
+  .success-inner-div-2 {
+    margin-left: 9%;
+  }
+
+  .success-btn {
+    margin-top: 25px;
+  }
+
+  .btn-size {
+    width: 25%;
+  }
+
+  .skills p{
+    font-size: xx-large;
+  }
+
+  .aboutMe-p {
+    font-size: xx-large;
+  }
+
+  .projects-text-p {
+    font-size: large;
+  }
+
+  .btn {
+    font-size: large;
   }
 
 }
