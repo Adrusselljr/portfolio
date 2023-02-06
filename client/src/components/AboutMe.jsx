@@ -54,7 +54,7 @@ const AboutMe = () => {
             </div>
 
             <div className="btn btn-size">
-                <a className='aboutMe-a' href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I"><p className='button-p'>My Resume</p></a>
+                <a className='aboutMe-a' href="https://docs.google.com/document/d/1lU9mJVSzk6Mj0VQLnrz1Nil7LYSyr49I92A9Iathe7I/edit?usp=sharing"><p className='button-p'>My Resume</p></a>
             </div>
         </div>
     )
